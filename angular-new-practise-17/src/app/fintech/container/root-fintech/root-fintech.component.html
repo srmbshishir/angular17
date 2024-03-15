@@ -1,0 +1,21 @@
+<p>root-fintech works!</p>
+<p>shishir</p>
+<button class="btn-custom">Fintech</button>
+
+  @if(count == 17){
+    <p>{{count + 4}}</p>
+  }
+  @else{
+    <p>count is changed</p>
+  }
+
+  @switch (count) {
+    @case (17)  {count is 17}
+    @case (1700) {count is 1700}
+    @default {count didn't match}
+  }
+<app-root-platform></app-root-platform>
+<!--<app-root-platform></app-root-platform>-->
+<!--  <p *ngIf="count == 17"></p>-->
+
+{{count + 4}}
